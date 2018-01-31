@@ -27,4 +27,4 @@ export CROSS_COMPILE=/home/ubuntu/p1m/kernel/toolchain/bin/aarch64-linux-android
 make -C $PWD O=$PWD/out ARCH=arm64 wt98735_a1_defconfig
 
 #make kernel in out dir
-make -j16 -C $PWD O=$PWD/out ARCH=arm64
+make -j64 -C $PWD O=$PWD/out ARCH=arm64
